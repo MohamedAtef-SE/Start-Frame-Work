@@ -11,7 +11,7 @@ import Skills from '../Skills/Skills';
 
 
 
-const myBrowserRouter = createHashRouter([
+const myBrowserRouter = createBrowserRouter([
   {
     path: '/start-frame-work', element: <LayOut />, children: [
       { index: true, element: <Home /> },
@@ -20,9 +20,10 @@ const myBrowserRouter = createHashRouter([
       { path: 'port', element: <Portfolio /> },
       { path: 'skills', element: <Skills /> },
       { path: 'contact', element: <Contact /> },
-      { path: '*', element: <h1>4 0 4</h1> }
+      { path: '*', element: <h1 className='bg-light d-flex align-items-center justify-content-center text-center fw-bolder vh-custom'>4 0 4 Page Not Found</h1> }
     ]
-  }
+  },
+  { path: '*', element: <h1 className='bg-light d-flex align-items-center justify-content-center text-center fw-bolder vh-custom'>4 0 4 Page Not Found</h1> }
 ])
 
 
