@@ -1,4 +1,9 @@
 import { Component } from "react";
+import image01 from '../../Images/1.jpg';
+import image02 from '../../Images/2.jpg';
+import image03 from '../../Images/3.jpg';
+import image04 from '../../Images/4.jpg';
+import image05 from '../../Images/5.jpg';
 
 
 
@@ -106,7 +111,7 @@ export default class Portfolio extends Component {
                         <div className="row g-4 justify-content-evenly">
                             <div id="1" className="proCard col-lg-4 col-md-6">
                                 <div className="box overflow-hidden position-relative rounded">
-                                    <img className="w-100 rounded" src={require('../../Images/1.jpg')} alt="Data analyst project" />
+                                    <img className="w-100 rounded" src={image01} alt="Data analyst project" />
                                     <div className="overlayBox d-flex flex-column align-items-center justify-content-center">
                                         <h4 className="p-4 text-white">Database Management System and Business Intelligence Cycle Project</h4>
                                         <i className="fa-solid fa-circle-plus fa-2x"></i>
@@ -116,7 +121,7 @@ export default class Portfolio extends Component {
                             </div>
                             <div id="2" className="proCard col-lg-4 col-md-6">
                                 <div className="box overflow-hidden position-relative rounded">
-                                    <img className="w-100 rounded" src={require('../../Images/2.jpg')} alt="Data analyst project" />
+                                    <img className="w-100 rounded" src={image02} alt="Data analyst project" />
                                     <div className="overlayBox flex-column d-flex align-items-center justify-content-center">
                                         <h4 className="p-4 text-white">Stores and Regions Sales Analysis</h4>
                                         <i className="fa-solid fa-circle-plus fa-2x"></i>
@@ -125,7 +130,7 @@ export default class Portfolio extends Component {
                             </div>
                             <div id="3" className="proCard col-lg-4 col-md-6">
                                 <div className="box overflow-hidden position-relative rounded">
-                                    <img className="w-100 rounded" src={require('../../Images/1.jpg')} alt="Data analyst project" />
+                                    <img className="w-100 rounded" src={image03} alt="Data analyst project" />
                                     <div className="overlayBox flex-column d-flex align-items-center justify-content-center">
                                         <h4 className="p-4 text-white">ETL for Telecom Company</h4>
                                         <i className="fa-solid fa-circle-plus fa-2x"></i>
@@ -134,7 +139,7 @@ export default class Portfolio extends Component {
                             </div>
                             <div id="4" className="proCard col-lg-4 col-md-6">
                                 <div className="box overflow-hidden position-relative rounded">
-                                    <img className="w-100 rounded" src={require('../../Images/4.jpg')} alt="Data analyst project" />
+                                    <img className="w-100 rounded" src={image04} alt="Data analyst project" />
                                     <div className="overlayBox flex-column d-flex align-items-center justify-content-center">
                                         <h4 className="p-4 text-white">Sales Data Mart</h4>
                                         <i className="fa-solid fa-circle-plus fa-2x"></i>
@@ -143,7 +148,7 @@ export default class Portfolio extends Component {
                             </div>
                             <div id="5" className="proCard col-lg-4 col-md-6">
                                 <div className="box overflow-hidden position-relative rounded">
-                                    <img className="w-100 rounded" src={require('../../Images/5.jpg')} alt="Data analyst project" />
+                                    <img className="w-100 rounded" src={image05} alt="Data analyst project" />
                                     <div className="overlayBox d-flex flex-column align-items-center justify-content-center">
                                         <h4 className="p-4 text-white">Web Scraping, <span className="fw-light">with Python</span></h4>
                                         <i className="fa-solid fa-circle-plus fa-2x"></i>

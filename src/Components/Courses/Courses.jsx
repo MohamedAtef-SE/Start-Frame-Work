@@ -1,4 +1,5 @@
 import { Component } from 'react';
+import myImage from '../../Images/course.png';
 
 
 export default class Courses extends Component {
@@ -60,7 +61,7 @@ export default class Courses extends Component {
                             </div>
                             <div className="col-md-4 d-flex justify-content-center align-items-center">
                                 <div className="image w-100">
-                                    <img className='w-100' src={require('../../Images/course.png')} alt="" />
+                                    <img className='w-100' src={myImage} alt="" />
                                 </div>
                             </div>
                         </div>

@@ -1,4 +1,5 @@
 import { Component } from 'react';
+import myImage from '../../Images/edu.png';
 
 
 export default class Education extends Component {
@@ -32,7 +33,7 @@ export default class Education extends Component {
                             </div>
                             <div className="col-lg-3">
                                 <div className="image d-flex justify-content-center align-items-end h-100 w-100">
-                                    <img className='w-100' src={require('../../Images/edu.png')} alt="data scince image" />
+                                    <img className='w-100' src={myImage} alt="data scince image" />
                                 </div>
                             </div>
                         </div>
