@@ -1,6 +1,6 @@
 import { Component } from 'react';
 import './App.css';
-import { Link, RouterProvider, createBrowserRouter } from 'react-router-dom';
+import { Link, RouterProvider, createBrowserRouter, createHashRouter } from 'react-router-dom';
 import LayOut from '../LayOut/layOut';
 import Home from './../Home/Home';
 import Education from '../Education/Education';
@@ -11,7 +11,7 @@ import Skills from '../Skills/Skills';
 
 
 
-const myBrowserRouter = createBrowserRouter([
+const myBrowserRouter = createHashRouter([
   {
     path: '/start-frame-work', element: <LayOut />, children: [
       { index: true, element: <Home /> },
