@@ -11,3 +11,172 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.fs-custom {
+  font-size: 25px !important;
+}
+
+.h-100px {
+  height: 100px;
+}
+
+.vh-custom {
+  height: calc(100vh - 100px);
+}
+
+.active {
+  text-shadow: 0px 0px 10px white;
+}
+
+.min-vh-custom {
+  min-height: calc(100vh - 100px);
+}
+
+.w-fit {
+  width: fit-content !important;
+}
+
+.w-custom {
+  width: 300px;
+}
+
+.h-custom {
+  height: 300px;
+}
+
+.bg-custom,
+.footer {
+  background-color: #2C3E50;
+}
+
+
+.bg-main {
+  background-color: #1ABC9C;
+}
+
+.courses .inner>* {
+  font-size: 18px;
+}
+
+@media (max-width: 767px) {
+  .courses .inner>* {
+    font-size: 12px;
+  }
+
+  .education .inner>* {
+    font-size: 12px;
+  }
+}
+
+.skills h1::before,
+.contact h1::before,
+.port h1::before,
+.education h2::before,
+.courses h2::before,
+.home h2::before {
+  content: "\f200";
+  font-family: "Font Awesome 5 free";
+  font-weight: 800;
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  width: 50px;
+  height: 50px;
+  background-color: #1ABC9C;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.navbar {
+  transition: .5s;
+}
+
+.fa-xmark {
+  cursor: pointer;
+}
+
+.contact h1 {
+  color: #2C3E50;
+}
+
+.contact h1::before {
+  background-color: white;
+}
+
+.home .x {
+  overflow: hidden;
+}
+
+.home img {
+  position: absolute;
+  top: 18%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.port img {
+  height: 225px;
+}
+
+.port .overlayBox {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(26, 188, 156, 0.75);
+  color: white;
+  transition: .5s;
+  opacity: 0;
+  cursor: pointer;
+}
+
+
+.port .box:hover .overlayBox {
+  opacity: 1;
+
+}
+
+.pressMe {
+  transition: .3s;
+}
+
+.contact .btn-custom {
+  border: none;
+  border-radius: 8px;
+  background-color: #1ABC9C;
+  transition: .4s;
+  padding: 10px 20px;
+  margin: 20px;
+  margin-bottom: 0;
+}
+
+.contact .btn-custom:hover {
+  background-color: #2C3E50;
+}
+
+
+@media (min-width: 767px) {
+  .w-md-50 {
+    width: 50% !important;
+  }
+}
+
+@media (max-width: 767px) {
+
+
+  .navbar .container .collapse {
+    position: absolute;
+    width: 100%;
+    top: 100%;
+    left: 0%;
+  }
+}
+
+.fs-sm {
+  font-size: 12px;
+}
