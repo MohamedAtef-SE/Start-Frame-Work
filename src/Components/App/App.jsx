@@ -13,7 +13,7 @@ import Skills from '../Skills/Skills';
 
 const myBrowserRouter = createBrowserRouter([
   {
-    path: '/', element: <LayOut />, children: [
+    path: '/Start-Frame-Work', element: <LayOut />, children: [
       { index: true, element: <Home /> },
       { path: 'education', element: <Education /> },
       { path: 'courses', element: <Courses /> },
