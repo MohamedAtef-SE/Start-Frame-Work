@@ -11,9 +11,9 @@ import Skills from '../Skills/Skills';
 
 
 
-const myBrowserRouter = createBrowserRouter([
+const myBrowserRouter = createHashRouter([
   {
-    path: '/Start-Frame-Work', element: <LayOut />, children: [
+    path: '/', element: <LayOut />, children: [
       { index: true, element: <Home /> },
       { path: 'education', element: <Education /> },
       { path: 'courses', element: <Courses /> },
