@@ -1,29 +1,29 @@
 {
   "files": {
-    "main.css": "/start-frame-work/static/css/main.e871fefd.css",
-    "main.js": "/start-frame-work/static/js/main.d82896cc.js",
-    "static/media/fa-solid-900.ttf": "/start-frame-work/static/media/fa-solid-900.45a265d0f07b31cde85f.ttf",
-    "static/media/fa-brands-400.ttf": "/start-frame-work/static/media/fa-brands-400.6205fd00fb1b573e9f0f.ttf",
-    "static/media/fa-solid-900.woff2": "/start-frame-work/static/media/fa-solid-900.fb8184add5a3101ad0a3.woff2",
-    "static/media/profile.png": "/start-frame-work/static/media/profile.ec3aad530a810c9d2a26.png",
-    "static/media/fa-brands-400.woff2": "/start-frame-work/static/media/fa-brands-400.8d3cabfc66809162fb4d.woff2",
-    "static/media/1.jpg": "/start-frame-work/static/media/1.e0a702eea37f840d05a2.jpg",
-    "static/media/edu.png": "/start-frame-work/static/media/edu.331d1bfbddbc8073e793.png",
-    "static/media/5.jpg": "/start-frame-work/static/media/5.3fc90fc776a25a618e7b.jpg",
-    "static/media/2.jpg": "/start-frame-work/static/media/2.4851889548fcf3cca888.jpg",
-    "static/media/fa-regular-400.ttf": "/start-frame-work/static/media/fa-regular-400.adc51aab4d771ab65f81.ttf",
-    "static/media/4.jpg": "/start-frame-work/static/media/4.7a9272e30063da10187c.jpg",
-    "static/media/course.png": "/start-frame-work/static/media/course.9f7b1b12816929daa347.png",
-    "static/media/3.jpg": "/start-frame-work/static/media/3.ea186d4f0046e896c797.jpg",
-    "static/media/fa-regular-400.woff2": "/start-frame-work/static/media/fa-regular-400.e931bc0d14f5bbb1da22.woff2",
-    "static/media/fa-v4compatibility.ttf": "/start-frame-work/static/media/fa-v4compatibility.2eb7b3ef25042305f3ff.ttf",
-    "static/media/fa-v4compatibility.woff2": "/start-frame-work/static/media/fa-v4compatibility.b3049b13a93f07e026fc.woff2",
-    "index.html": "/start-frame-work/index.html",
-    "main.e871fefd.css.map": "/start-frame-work/static/css/main.e871fefd.css.map",
-    "main.d82896cc.js.map": "/start-frame-work/static/js/main.d82896cc.js.map"
+    "main.css": "/Start-Frame-Work/static/css/main.97ecc646.css",
+    "main.js": "/Start-Frame-Work/static/js/main.bb7659b0.js",
+    "static/media/fa-solid-900.ttf": "/Start-Frame-Work/static/media/fa-solid-900.45a265d0f07b31cde85f.ttf",
+    "static/media/fa-brands-400.ttf": "/Start-Frame-Work/static/media/fa-brands-400.6205fd00fb1b573e9f0f.ttf",
+    "static/media/fa-solid-900.woff2": "/Start-Frame-Work/static/media/fa-solid-900.fb8184add5a3101ad0a3.woff2",
+    "static/media/profile.png": "/Start-Frame-Work/static/media/profile.ec3aad530a810c9d2a26.png",
+    "static/media/fa-brands-400.woff2": "/Start-Frame-Work/static/media/fa-brands-400.8d3cabfc66809162fb4d.woff2",
+    "static/media/1.jpg": "/Start-Frame-Work/static/media/1.e0a702eea37f840d05a2.jpg",
+    "static/media/edu.png": "/Start-Frame-Work/static/media/edu.331d1bfbddbc8073e793.png",
+    "static/media/5.jpg": "/Start-Frame-Work/static/media/5.3fc90fc776a25a618e7b.jpg",
+    "static/media/2.jpg": "/Start-Frame-Work/static/media/2.4851889548fcf3cca888.jpg",
+    "static/media/fa-regular-400.ttf": "/Start-Frame-Work/static/media/fa-regular-400.adc51aab4d771ab65f81.ttf",
+    "static/media/4.jpg": "/Start-Frame-Work/static/media/4.7a9272e30063da10187c.jpg",
+    "static/media/course.png": "/Start-Frame-Work/static/media/course.9f7b1b12816929daa347.png",
+    "static/media/3.jpg": "/Start-Frame-Work/static/media/3.ea186d4f0046e896c797.jpg",
+    "static/media/fa-regular-400.woff2": "/Start-Frame-Work/static/media/fa-regular-400.e931bc0d14f5bbb1da22.woff2",
+    "static/media/fa-v4compatibility.ttf": "/Start-Frame-Work/static/media/fa-v4compatibility.2eb7b3ef25042305f3ff.ttf",
+    "static/media/fa-v4compatibility.woff2": "/Start-Frame-Work/static/media/fa-v4compatibility.b3049b13a93f07e026fc.woff2",
+    "index.html": "/Start-Frame-Work/index.html",
+    "main.97ecc646.css.map": "/Start-Frame-Work/static/css/main.97ecc646.css.map",
+    "main.bb7659b0.js.map": "/Start-Frame-Work/static/js/main.bb7659b0.js.map"
   },
   "entrypoints": [
-    "static/css/main.e871fefd.css",
-    "static/js/main.d82896cc.js"
+    "static/css/main.97ecc646.css",
+    "static/js/main.bb7659b0.js"
   ]
 }
