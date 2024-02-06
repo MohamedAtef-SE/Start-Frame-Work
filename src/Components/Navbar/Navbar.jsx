@@ -43,19 +43,19 @@ export default class Navbar extends Component {
                         <div className="collapse bg-custom z-3 p-3 rounded navbar-collapse" id="navbarNav">
                             <ul className="ms-auto navbar-nav">
                                 <li className="nav-item">
-                                    <Link className="nav-link pressMe fw-bolder mx-2" aria-current="page" to="/education">EDUCATION</Link>
+                                    <Link className="nav-link pressMe fw-bolder mx-2" aria-current="page" to="education">EDUCATION</Link>
                                 </li>
                                 <li className="nav-item">
-                                    <Link className="nav-link pressMe fw-bolder mx-2" aria-current="page" to="/courses">COURSES</Link>
+                                    <Link className="nav-link pressMe fw-bolder mx-2" aria-current="page" to="courses">COURSES</Link>
                                 </li>
                                 <li className="nav-item">
-                                    <Link className="nav-link pressMe fw-bolder mx-2" to="/port">PROJECTS</Link>
+                                    <Link className="nav-link pressMe fw-bolder mx-2" to="port">PROJECTS</Link>
                                 </li>
                                 <li className="nav-item">
-                                    <Link className="nav-link pressMe fw-bolder mx-2" to="/skills">SKILLS</Link>
+                                    <Link className="nav-link pressMe fw-bolder mx-2" to="skills">SKILLS</Link>
                                 </li>
                                 <li className="nav-item">
-                                    <Link className="nav-link pressMe fw-bolder mx-2" to="/contact">CONTACT</Link>
+                                    <Link className="nav-link pressMe fw-bolder mx-2" to="contact">CONTACT</Link>
                                 </li>
                             </ul>
                         </div>
