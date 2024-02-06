@@ -41,11 +41,8 @@ export default class App extends Component {
 
     return (
       <>
-        <Router basename="/Start-Frame-Work" />
         <RouterProvider router={myBrowserRouter} />
       </>
     )
   }
-
 }
-
